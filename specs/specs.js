@@ -1,21 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-/*
-describe("BankAccount", function(){
-    describe("deposit", function(){
-        it("adds the amount to the balance", function(){
-            var testBankAccount = Object.create(BankAccount);
-            testBankAccount.deposit(20);
-            expect(testBankAccount.balance).to.equal(20);
+describe("Movie", function(){
+    describe("select-movie", function() {
+        it('will return Star Wars when asked for the movie name', function(){
+            var testSelectMovie = Object.create(Movie);
+            testSelectMovie.name = "star-wars";
+            expect(testSelectMovie.select-movie()).to.equal("star-wars");
         });
     });
-*/
+});
